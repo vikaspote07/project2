@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 5px 5px 5px 5px;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: azure;
+}
+header img {
+  height: 40px;
+  padding-left: 40px;
+}
+.nav {
+  text-align: center;
+  display: inline-flex;
+}
+.nav {
+  padding: 15px;
+  padding-left: 30%;
+}
+.nav li {
+  list-style: none;
+  text-align: center;
+  padding: 15px;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 18px;
+  padding: 0, 10px;
+}
+.nav li a::after {
+  content: "";
+  position: relative;
+  background-color: blue;
+  height: 20px;
+
+  left: 0px;
+  bottom: -1px;
+  transition: 0.3s;
+}
+.nav li a:hover:after {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.main {
+  padding: 50px;
+  width: 30%;
+  /* background-color: aquamarine; */
+  height: 320px;
+}
+#button1 {
+  background-color: blueviolet;
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  border-radius: 25px;
+  height: 50px;
+  width: 150px;
+  border-style: hidden;
+}
+#button1:hover {
+  background-color: pink;
+}
+#button1 a {
+  text-decoration: none;
+  color: blueviolet;
+  color: white;
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 18px;
+}
+.heading {
+  padding: 70px;
+  height: 80px;
+  width: 250px;
+}
+
+.heading h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.line {
+  padding-left: 70px;
+  text-align: justify;
+}
+.line h4 {
+  color: lightslategrey;
+}
+.d3 {
+  margin-left: 50px;
+  display: inline-flex;
+}
+.d3 img {
+  padding: 10px;
+  margin-top: 25px;
+}
+.d3 img:hover {
+  background-color: violet;
+  transition-duration: 1s;
+}
+#button2 {
+  margin-left: 20px;
+  margin-top: 40px;
+  border-style: hidden;
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 18px;
+}
+#button2 {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: blueviolet;
+}
+#button2:hover {
+  background-color: violet;
+}
+#button2 a {
+  text-decoration: none;
+  color: white;
+}
+.main2 {
+  margin-left: 280px;
+}
+#i1 img {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-flex;
+}
+/* .d4{
+        display: grid;
+        margin-top: 0px;
+        margin-left: 120px;
+        height: 600px;
+        width: 500px;
+        background-color:white ;
+    }
+    .d4 img{
+        list-style: none;
+        padding: 10px;}
+        */
+.d4 {
+  background-color: azure;
+  height: 200px;
+  width: 400px;
+  margin-left: 120px;
+  margin-top: 0px;
+}
+.d4-sub {
+  display: inline-flex;
+  background-color: lightgrey;
+  height: 100x;
+  width: 100%;
+  padding: px;
+  margin-top: 0px;
+}
+.d4-sub p {
+  padding: 10px;
+  padding-left: 30px;
+}
+.d4-sub button {
+  margin-top: 15px;
+  margin-left: 30px;
+  height: 10px;
+  width: 15px;
+  background-color: pink;
+  border-style: hidden;
+  border-radius: 30px;
+}
+#b2 {
+  margin-top: 15px;
+  margin-left: 30px;
+  height: 10px;
+  width: 15px;
+  background-color: red;
+  border-style: hidden;
+  border-radius: 30px;
+}
+#b3 {
+  margin-top: 15px;
+  margin-left: 30px;
+  height: 10px;
+  width: 15px;
+  /* background-color: aqua; */
+  border-style: hidden;
+  border-radius: 30px;
+}
+#b4 {
+  margin-top: 15px;
+  margin-left: 30px;
+  height: 10px;
+  width: 15px;
+  background-color: #ffe4a0;
+  border-style: hidden;
+  border-radius: 30px;
+}
+
+#in1 {
+  margin-left: 35px;
+}
+#in2 {
+  margin-left: 16px;
+}
+#in3 {
+  margin-left: 49px;
+}
+#in4 {
+  margin-left: 79px;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+.d4-sub:hover {
+  background-color: bisque;
+}
+.d4-sub:hover #blue {
+  background-color: blue;
+}
